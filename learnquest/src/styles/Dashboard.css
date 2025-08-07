@@ -1,0 +1,10 @@
+.dashboard {
+    padding: 20px;
+  }
+  
+  .courses {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  

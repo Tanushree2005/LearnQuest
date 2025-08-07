@@ -1,0 +1,19 @@
+.listing-page {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .filters {
+    width: 200px;
+  }
+  
+  .courses {
+    flex: 1;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
