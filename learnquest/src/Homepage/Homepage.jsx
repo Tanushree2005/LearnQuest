@@ -6,7 +6,6 @@ import Navbar from '../components/Navbar/Navbar.jsx'
 const Homepage = () => {
   return (
     <>
-    <Navbar />
     <div className="homepage">
       {/* Hero Section */}
       <section className="hero-section">
@@ -18,7 +17,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/assets/hero-learn-online.png" alt="Learning online" />
+          <img src="/heroimg.jpg" alt="Learning online" />
         </div>
       </section>
 
@@ -39,19 +38,19 @@ const Homepage = () => {
         <h2>Top Picks For You</h2>
         <div className="course-grid">
           <div className="course-card">
-            <img src="/assets/course-react.jpg" alt="React Course" />
+            <img src="/reactimg.png" alt="React Course" />
             <h3>React for Beginners</h3>
             <p>Instructor: Jane Doe</p>
             <p>$19.99</p>
           </div>
           <div className="course-card">
-            <img src="/assets/course-ux.jpg" alt="UX Course" />
+            <img src="/uximg.jpg" alt="UX Course" />
             <h3>UX Design Masterclass</h3>
             <p>Instructor: Alex Smith</p>
             <p>$24.99</p>
           </div>
           <div className="course-card">
-            <img src="/assets/course-python.jpg" alt="Python Course" />
+            <img src="/reactimg.png" alt="Python Course" />
             <h3>Complete Python Bootcamp</h3>
             <p>Instructor: Emily Clark</p>
             <p>$29.99</p>

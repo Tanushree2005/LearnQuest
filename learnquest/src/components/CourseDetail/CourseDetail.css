@@ -1,0 +1,105 @@
+.course-details-page {
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  color: #222;
+}
+
+/* Header */
+.course-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.course-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+/* Layout */
+.course-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+/* Left section */
+.course-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.course-video iframe {
+  width: 100%;
+  height: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-section {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.course-section h3 {
+  margin-bottom: 0.5rem;
+  color: #34495e;
+}
+
+/* Reviews and Ratings side by side */
+.course-feedback {
+  display: flex;
+  gap: 1rem;
+}
+
+.reviews,
+.ratings {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Purchase Section */
+.course-right .purchase-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.purchase-card h3 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.buy-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #4e73df, #1d3ca3);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: linear-gradient(135deg, #1d3ca3, #4e73df);
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .course-main {
+    grid-template-columns: 1fr;
+  }
+}
